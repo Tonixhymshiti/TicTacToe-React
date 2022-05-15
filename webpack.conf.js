@@ -27,7 +27,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(), // Cleans prod files on every build (index.html & bundles)
         new HtmlWebpackPlugin({
-          title: "React with Webpack&Babel",
+          title: "TicTacToe",
           template: path.resolve(__dirname, "./src/index.html")  // Auto generates index.html inside /dist
     })],
     // 5 Directory where the files are served to the webpack-server.
