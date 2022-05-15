@@ -12,11 +12,15 @@ module.exports = {
           test: /\.(js|jsx|ts(x?))$/,
           exclude: /node-modules/,
           use: ['babel-loader']
+        },
+        {
+          test: /\.css$/i,
+          use: ["style-loader", "css-loader"],
         }
       ]
     },
     resolve: {
-        extensions: ['*', '.js', '.jsx', '.ts', '.tsx']
+        extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.css']
     },
     // 3 Final directory where bundle will be placed.
     output: {
