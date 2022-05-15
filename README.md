@@ -1,2 +1,2 @@
 # TicTacToe-React
-A simple TicTacToe built using only React :).
+A simple TicTacToe game built using only React :).
