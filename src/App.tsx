@@ -1,5 +1,13 @@
-import * as React from 'react';
+import React from 'react';
+import './App.css';
+import { Game } from './components/Game/Game';
 
-export const App = () => {
-  return null
+function App() {
+  return (
+    <div className="App">
+      <Game></Game>
+    </div>
+  );
 }
+
+export default App;
